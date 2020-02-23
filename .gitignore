@@ -1,7 +1,8 @@
 package-lock.json
 node_modules/
-config.json
+config.js
 client/node_modules/
 client/public/
 client/package-lock.json
-client/yarn-lock.json
+client/yarn.lock
+client/src/logo.svg
