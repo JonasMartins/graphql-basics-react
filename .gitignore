@@ -1,0 +1,7 @@
+package-lock.json
+node_modules/
+config.json
+client/node_modules/
+client/public/
+client/package-lock.json
+client/yarn-lock.json
