@@ -28,3 +28,13 @@ const json = '{"x": 10, "y":20}';
 // every time any appears we have to espicify what kind of
 // value this any realy is
 const coord: { x: number; y: number } = JSON.parse(json);
+
+let numbers = [-10, -1, 23];
+// aboveZero can be boolean or number
+let aboveZero: boolean | number = false;
+
+for (let i = 0; i < numbers.length; i++) {
+	if (numbers[i] > 0) {
+		aboveZero = numbers[i];
+	}
+}
